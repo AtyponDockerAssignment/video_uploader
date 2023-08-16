@@ -1,0 +1,58 @@
+
+body {
+  font-family: Arial, sans-serif;  
+}
+
+.login-box {
+  width: 300px;
+  margin: 50px auto 0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #888;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  box-sizing: border-box; 
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #ff0000;
+  color: white;  
+  border: none;
+}
+
+p {
+  text-align: center;
+}
+
+
+.signup-box {
+  width: 300px;
+  margin: 50px auto 0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+}
+
+.error-msg {
+  background: #f2dede;
+  color: #a94442;
+  padding: 10px;
+  border: 1px solid #ebccd1;
+  border-radius: 4px;
+}
+
+.error-msg i {
+  margin-right: 5px;
+}

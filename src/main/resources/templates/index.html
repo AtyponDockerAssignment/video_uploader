@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Login Page</title>
+    <link rel="stylesheet" th:href="@{style.css}">
+</head>
+<body>
+<div th:if="${error}" class="error-msg" th:text="${error}">
+    <i class="fas fa-exclamation-circle"></i>
+    Invalid username or password
+</div>
+<div class="login-box">
+    <h1>Login</h1>
+    <form th:action="@{/login}" method="post">
+        <input type="text" name="username" placeholder="Username">
+        <input type="password" name="password" placeholder="Password">
+        <button type="submit">Login</button>
+    </form>
+</div>
+
+</body>
+</html>
